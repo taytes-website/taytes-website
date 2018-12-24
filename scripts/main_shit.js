@@ -8,6 +8,10 @@ function GibsMeSnog()
 	return "assets/" + MuhSong + ".mp3";
 }
 
-var trumpet = new Audio(GibsMeSnog());
-trumpet.loop = true;
-trumpet.play();
+document.addEventListener('DOMContentLoaded', function() {
+	var trumpet = new Audio(GibsMeSnog());
+	trumpet.loop = true;
+	trumpet.play();
+}, false);
+
+
