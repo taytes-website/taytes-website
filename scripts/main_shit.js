@@ -7,3 +7,16 @@ function GibsMeSnog()
 	var MuhSnog = MuhSnogs[Math.floor(Math.random() * MuhSnogs.length)];
 	return "assets/" + MuhSong + ".mp3";
 }
+
+function PlayzusMezusMuhSnogNShit()
+{
+	var trumpet = new Audio(GibsMeSnog());
+	trumpet.loop = true;
+	trumpet.play();
+}
+
+// SHIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET
+function PlayRandomSong()
+{
+	return PlayzusMezusMuhSnogNShit();
+}
