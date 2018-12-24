@@ -8,15 +8,6 @@ function GibsMeSnog()
 	return "assets/" + MuhSong + ".mp3";
 }
 
-function PlayzusMezusMuhSnogNShit()
-{
-	var trumpet = new Audio(GibsMeSnog());
-	trumpet.loop = true;
-	trumpet.play();
-}
-
-// SHIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET
-function PlayRandomSong()
-{
-	return PlayzusMezusMuhSnogNShit();
-}
+var trumpet = new Audio(GibsMeSnog());
+trumpet.loop = true;
+trumpet.play();
